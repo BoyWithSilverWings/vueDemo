@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Colors</title>
+
+  <meta name="description" content="Visualise any color you type into the input box">
+  <meta name="keywords" content="Javascript, Vue, Color">
+  <meta name="author" content="Boy With Silver Wings">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <div id="app" v-bind:style="{ background: message }">
+  	<input placeholder="Type color Here" v-model="message">
+  </div>
+
+  <script src='https://unpkg.com/vue/dist/vue.js'></script>
+  <script src="js/index.js"></script>
+
+</body>
+</html>

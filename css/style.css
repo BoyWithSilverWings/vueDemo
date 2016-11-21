@@ -1,0 +1,12 @@
+/* Centering text*/
+body {
+  font-family:"Roboto",Open Sans;
+  font-size: x-large;
+}
+main {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
